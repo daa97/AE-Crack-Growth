@@ -9,13 +9,9 @@ folder = "Waveform1"
 test = rf.Dataset()
 test.add_hits(folder)
 print("imported")
-#plt.plot(test.hits[103].waveform)
-#plt.plot(test.hits[104].waveform)
-plt.plot(test.hits[105].waveform)
-plt.show()
 
 
-'''
+
 for h in test.hits:
     (_,_,img) = rf.spect(h.waveform, 120, sample_rate=1)
     # print(len(img), "|", len(img[0]))
@@ -46,7 +42,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 
-history = model.fit(x=w, y=y, epochs=10)
+history = model.fit(x=w, y=y, epochs=10, training=True)
 
 
-'''
+history
