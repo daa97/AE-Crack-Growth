@@ -45,4 +45,4 @@ model.compile(optimizer='adam',
 history = model.fit(x=w, y=y, epochs=10, training=True)
 
 
-history
+plt.plot()

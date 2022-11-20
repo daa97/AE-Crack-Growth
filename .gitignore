@@ -4,3 +4,7 @@ Waveform1/
 Waveform2/
 Waveform3/
 Waveform4/
+metadata/
+metadata.csv
+spectrograms.npy
+waves.npy
