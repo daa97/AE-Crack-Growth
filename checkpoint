@@ -1,2 +1,2 @@
-model_checkpoint_path: "cp10.ckpt"
-all_model_checkpoint_paths: "cp10.ckpt"
+model_checkpoint_path: "v3cp20.ckpt"
+all_model_checkpoint_paths: "v3cp20.ckpt"

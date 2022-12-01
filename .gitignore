@@ -1,9 +1,11 @@
 SG/
-waves/
+arrays/
 Waveform1/
 Waveform2/
 Waveform3/
 Waveform4/
+Model/
+Figures/
 metadata/
 metadata.csv
 spectrograms.npy

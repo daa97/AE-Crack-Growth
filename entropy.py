@@ -2,6 +2,7 @@
 import math
 import scipy as sp
 import matplotlib.pyplot as plt
+import numpy as np
 
 def entropy(waveform):
     dist = PMF(waveform)
@@ -89,3 +90,8 @@ def outlier(data):
     Q1, _, Q3 = quartiles(data)
     threshold = Q3 + (Q3 - Q1)
     return [pt > threshold for pt in data]
+
+
+waves = np.load("waves.npy")
+
+print(entropy(waves[0,:]))
