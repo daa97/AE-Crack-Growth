@@ -10,3 +10,4 @@ metadata/
 metadata.csv
 spectrograms.npy
 waves.npy
+Datasets/
